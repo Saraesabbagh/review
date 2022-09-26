@@ -10,6 +10,7 @@
 - Expected input- "Green, Green, Red, Amber, Red" (building towards)
 - Desired output- "Green: 2\nAmber: 1\nRed: 2"
 <br>
+## Input/ output table
 | Input | Output |
 | ------- | -------- |
 |example1|intended output|
