@@ -1,10 +1,18 @@
-const color = (str) => {
-  colorArr = str.split(",");
-  greenCount = 0
+const colors = (str) => {
   
-  // return "Green:2, Amber:1, Red:2";
+  colorsArr = str.split(",");
+  // colorArr.trim().toLowerCase();
+   greenCount = 0;
+
+  colorsArr.forEach(function (color) {
+    if(color==="green" || color ==="Green"){
+      greenCount += 1;
+    }
+    
+  return `Green:${greenCount}`
+});
 };
 
-module.exports = color;
+module.exports = colors;
 
-color("Green, Green, Red, Amber, Red");
+colors("Green, green");

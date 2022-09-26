@@ -15,3 +15,10 @@
 | Input | Output |
 | ------- | -------- |
 |example1|intended output|
+|Green, Green, Red, Amber, Red | Green: 2\nAmber: 1\nRed: 2 |
+|Green | Green: 1 |
+|green | Green: 1 |
+|Green, Green | Green: 2 |
+|Green,green | Green: 2 |
+|Green,green, Abmer | Green: 2, Amber:1 |
+
