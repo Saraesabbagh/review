@@ -9,6 +9,7 @@
 -report needs to show how many instances or each color
 - Expected input- "Green, Green, Red, Amber, Red" (building towards)
 - Desired output- "Green: 2\nAmber: 1\nRed: 2"
+<br>
 | input | output |
-|-------|-------|
+|-------|--------|
 |example1|intended output|
