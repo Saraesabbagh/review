@@ -1,5 +1,8 @@
 const color = (str) => {
-  return "Green:2, Amber:1, Red:2";
+  colorArr = str.split(",");
+  greenCount = 0
+  
+  // return "Green:2, Amber:1, Red:2";
 };
 
 module.exports = color;

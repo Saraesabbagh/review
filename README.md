@@ -7,5 +7,8 @@
 -build a report on top of that. 
 -Marks are represented as colors (green, amber and red)
 -report needs to show how many instances or each color
-- Expected input- "Green, Green, Red, Amber, Red"
+- Expected input- "Green, Green, Red, Amber, Red" (building towards)
 - Desired output- "Green: 2\nAmber: 1\nRed: 2"
+| input | output |
+|-------|-------|
+|example1|intended output|
